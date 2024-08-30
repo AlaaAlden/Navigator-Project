@@ -12,7 +12,11 @@ class MealsScreen extends StatelessWidget {
     final id = routeArgs['id'];
     return Scaffold(
       appBar: AppBar(title: Text(id!),),
-      body: Column()
+      body: Column(children: [
+        Text('data'),
+        Text('data'),
+        Text('data'),
+      ],)
     );
   }
 }
